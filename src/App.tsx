@@ -53,7 +53,7 @@ const msalInstance = new PublicClientApplication({
   },
 });
 
-console.log(process.env.REACT_APP_CLIENT_ID);
+console.log("loookkkk here ,,clienttt idddd : ",process.env.REACT_APP_CLIENT_ID);
 const App = () => {
   return (
     <MsalProvider instance={msalInstance}>
