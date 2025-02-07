@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:5248/api/Feedback'; // Update with your actual backend URL
+//const BASE_URL = 'http://localhost:5248/api/Feedback'; // Update with your actual backend URL
+const BASE_URL = 'https://pulse-api-latest.onrender.com/api/Feedback';
 
 export const submitFeedback = async (feedback: any) => {
   // try {
