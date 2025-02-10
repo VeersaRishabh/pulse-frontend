@@ -84,11 +84,11 @@ const Dashboard = () => {
                 </button>
               </div> */}
               <div className="flex items-center gap-2 cursor-pointer hover:bg-gray-100 p-2 rounded-lg">
-                <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white">
+                {/* <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white">
                   JS
                 </div>
                 <span className="text-gray-700 font-medium"></span>
-                <i className="fas fa-chevron-down text-gray-400 text-sm"></i>
+                <i className="fas fa-chevron-down text-gray-400 text-sm"></i> */}
               </div>
               <button className="bg-blue-500 p-2 text-white" onClick={logout}>
                 Logout
